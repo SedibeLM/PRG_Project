@@ -3,7 +3,7 @@ using System.IO;
 using System.Windows.Forms;
 using System.Xml.Linq;
 
-namespace StudentManagementSystem
+namespace PRG_Project
 {
     public partial class AddStudentForm : Form
     {
@@ -127,6 +127,7 @@ namespace StudentManagementSystem
             this.textBox1.Name = "textBox1";
             this.textBox1.Size = new System.Drawing.Size(178, 26);
             this.textBox1.TabIndex = 6;
+            this.textBox1.TextChanged += new System.EventHandler(this.textBox1_TextChanged);
             // 
             // textBox2
             // 
@@ -167,5 +168,7 @@ namespace StudentManagementSystem
             this.PerformLayout();
 
         }
+
+        
     }
 }

@@ -62,6 +62,7 @@ namespace PRG_Project
 
             MessageBox.Show("Error updating student.");
         }
+
     }
 }
 

@@ -1,4 +1,4 @@
-﻿namespace StudentManagementSystem
+﻿namespace PRG_Project
 {
     partial class DeleteStudentForm
     {

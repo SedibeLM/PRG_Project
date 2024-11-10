@@ -3,7 +3,7 @@ using System.IO;
 using System.Linq;
 using System.Windows.Forms;
 
-namespace StudentManagementSystem
+namespace PRG_Project
 {
     public partial class MainForm : Form
     {
